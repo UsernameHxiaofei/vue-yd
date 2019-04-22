@@ -10,7 +10,6 @@ export default async (url = '', data = {}, type = 'GET', typeurl = '', method = 
     if (env.SERVER_URL[typeurl]) {
         url = env.SERVER_URL[typeurl] + url
     }
-
     if (method == 'fetch') {
       const requestConfig = {
         method: type,
