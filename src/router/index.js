@@ -8,10 +8,7 @@ import details from '@/page/details/details' //预约详情
 import Shop from '@/page/shop/shop'//门店选择
 import CityPicker from '@/page/CityPicker/CityPicker' //城市选择
 import Cancel from '@/page/Cancel/Cancel' //取消预约
-
-
 Vue.use(Router)
-
 export default new Router({
   routes: [
     {
